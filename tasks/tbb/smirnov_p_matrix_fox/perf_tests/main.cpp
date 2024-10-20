@@ -6,7 +6,7 @@
 #include <vector>
 
 #include "core/perf/include/perf.hpp"
-#include "tbb/smirnov_p_matrix_fox/include/matrix_fox.h"
+#include "tbb/smirnov_p_matrix_fox/include/matrix_fox.hpp"
 
 double getCurrentTimeInSeconds() {
   static auto start_time = std::chrono::high_resolution_clock::now();
